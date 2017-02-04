@@ -1,0 +1,172 @@
+/* Updated Jan 14, 2017 - SpaceX Iridium NEXT */
+
+@import url(https://nutn0n.com/assets/css/fonts.css);
+
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    color:#fff;
+}
+
+้้h1, h2, h3, h4 {
+  font-family: "Prompt"sans-serif;
+  color: #fff;
+  font-weight: 200;
+  margin: 0;
+}
+
+body {
+  background-color:#040103;
+  background-image: url(../img/bg.jpg);
+  background-position: top;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: "Prompt"sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+h1 .live-status {
+  font-family: "Prompt"sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  background-color: #e00000;
+  transform: translateY(-3px);
+  border-radius: 4px;
+}
+
+h1 .finished {
+  font-family: "Prompt"sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  background-color: #419147;
+  transform: translateY(-3px);
+  border-radius: 4px;
+}
+
+h1 .wait {
+  font-family: "Prompt"sans-serif;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 5px 5px 5px 5px;
+  display: inline-block;
+  background-color: #C88000;
+  transform: translateY(-3px);
+  border-radius: 4px;
+}
+
+h2 {
+  font-family: "Prompt"sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.logo-wrapper {
+  width: 100%;
+ text-align: center;
+ display: block;
+}
+
+.site-logo {
+  text-align: center;
+   display: inline-block;
+     transition: .2s ease;
+}
+
+.site-logo:hover {
+    transition: .2s ease;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.body-wrapper {
+  display: block;
+  margin: 50px 30px 50px 30px;
+  text-align: center;
+}
+
+.block {
+    display: inline-block;
+    text-align: left;
+    padding: 30px 30px 30px 30px;
+}
+
+.video-wrapper {
+  margin-top: 30px;
+  background-color: #333;
+  width: 650px;
+  height: 450px;
+  display: inline-block;
+  transition: .2s ease;
+  text-align: left;
+}
+
+.video-wrapper:hover {
+  transform: scale(1.05);
+  transition: .2s ease;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.33);
+}
+
+.twitter-wrapper {
+  width: 400px;
+  height: 450px;
+  display: inline-block;
+  text-align: left;
+}
+
+.mission-info {
+  display: block;
+  text-align: left;
+  width: 500px;
+  padding: 30px 100px 30px 100px;
+}
+
+.mission-info h2{
+  font-family: "Prompt"sans-serif;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.mission-info p{
+  font-family: sans-serif !important;
+  line-height: 22px;
+  font-size: 16px;
+  width: 500px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+
+.mission-info h2 span{
+  font-family: "Prompt"sans-serif;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.footer {
+  margin-top:100px;
+  text-align: center;
+}
+
+.footer p{
+  font-family: "Prompt"sans-serif;
+  color:#fff;
+  font-weight: 200;
+  font-size: 18px;
+}
